@@ -1,0 +1,31 @@
+Barbecue Lay's|0
+Chiclets|4
+Chumpy Monkey|0
+Cloud Popcorn|8
+Cola|5
+Corn Waves|0
+Cowtales|1
+Crunchie|5
+Dr. PepperSalt|1
+Dr. Salt|2
+ExtraExtra|1
+Grain Waves|7
+Heavy|4
+Little League Chew|3
+M&Ms|0
+Marshmellow Delight|1
+MegaMegaCola|0
+Moonpie|4
+Mountain Melter|6
+Mountain Stink|0
+Pineapple Gatorade|0
+Potato Crisps|6
+QuadrupleMint|0
+Skittles|0
+Stackers|3
+Triplemint|5
+Twix|0
+U-Chews|2
+Wonka Bar|7
+
+**TOTAL SALES** $141.00
