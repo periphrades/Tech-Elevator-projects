@@ -20,22 +20,7 @@ public class JDBCReservationDAO implements ReservationDAO {
 	public JDBCReservationDAO(DataSource datasource) {
 		template = new JdbcTemplate(datasource);
 	}
-	
-//	@Override
-//	public List<Reservation> getAllReservations() {
-//		
-//		List<Reservation> reservations = new ArrayList<Reservation>();
-//		
-//		String sql = "SELECT * FROM reservation";
-//		SqlRowSet results = template.queryForRowSet(sql);
-//		
-//		while (results.next()) {
-//			Reservation reservation = mapRowToReservation(results);
-//			reservations.add(reservation);
-//		}
-//		
-//		return reservations;
-//	}
+
 	
 	@Override
 	public long createReservation(Site site, String reservationName, LocalDate arrive, 
@@ -49,18 +34,7 @@ public class JDBCReservationDAO implements ReservationDAO {
 		return nextId;
 	}
 	
-//	private Reservation mapRowToReservation(SqlRowSet results) {
-//		Reservation reservation = new Reservation();
-//		reservation.setReservation_id(results.getLong("reservation_id"));
-//		reservation.setSite_id(results.getLong("site_id"));
-//		reservation.setName(results.getString("name"));
-//		reservation.setFrom_date(results.getDate("from_date").toLocalDate());
-//		reservation.setTo_date(results.getDate("to_date").toLocalDate());
-//		reservation.setCreate_date(results.getDate("create_date").toLocalDate());
-//		
-//		return reservation;
-//	}
-//	
+
 	private long getNextReservationId() {
 		SqlRowSet nextIdResult = template.queryForRowSet("SELECT nextval('reservation_reservation_id_seq')");
 		if(nextIdResult.next()) {
