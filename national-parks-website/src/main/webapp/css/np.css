@@ -1,0 +1,95 @@
+body{
+	background-color:#E1E7E4;
+}
+.container {
+	
+}
+
+header {
+	margin:25px;
+}
+
+header img{
+	 width: 70vw;
+}
+.navbar {
+	color:#2B5B91;
+	background-color:#47361E;
+	padding-left: 30px;
+}
+.navButtons {
+	list-style-type:none;
+	color:#1A8DC8;
+	font-size: 20px;
+	background-color:#47361E;
+	padding-top: 1%;
+}
+
+.mainBody {
+	padding:30px;
+	padding-bottom: 50px;
+	background-color:#F9F2E7;
+	margin-bottom: 40px;
+}
+.homeParkImage{
+	padding: 50px 0;
+}
+.resultsParkImage {
+	width: 80%;
+}
+.parkPic {
+	width: 100%;
+}
+.parkInfo {
+	padding: 50px 0;
+}
+
+h3 {
+	margin-top: 0px;
+}
+
+#todayIcon {
+	width: 65%;
+}
+
+.smallDayIcon {
+	width: 90%;
+	padding-top: 59%;
+}
+
+.error {
+	color: red;
+	margin-left: 10px;
+}
+
+.row-mt {
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.row-m2 {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.warning {
+	color: #bf4040;
+}
+
+.span-space-between {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.span-left {
+	padding-left: 0px;
+	margin-right: 2%;
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+
