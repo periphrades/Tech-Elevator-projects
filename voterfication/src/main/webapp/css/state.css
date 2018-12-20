@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Italianno');
+
+
+/* tangerine */
+/* Alex Brush */
+
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: Italianno;
+	font-size: 128px;
+}
+
+/* .flagAndSenators {
+	display: inline-flex;
+	justify-content: space-around;
+	width:100%;
+} */
+
+.flagBox {
+	margin-left:auto;
+	margin-right:auto;
+	width: 40%;
+	text-align:center;
+	height: 20vw;
+}
+
+.flag {
+	border: solid #bfbfbf 12px;
+	border-radius: 8px;
+	align-self: center;
+	align-content: center;
+	width: auto;
+	height: 100%;
+}
+
+.senators{
+	margin-left:auto;
+	margin-right:auto;
+	width:70vw;
+	text-align:center;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	align-self: top;
+	margin-top: 2%;
+	padding-bottom: 5px;
+}
+
+.houseReps{
+	margin-left:auto;
+	margin-right:auto;
+	width:70vw;
+	text-align:center;
+	color: black;
+	background-color:white;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+	padding-top: 1px;
+	margin-top: 30px;
+}
+
+.donors {
+	margin-right:2%;
+	width:33%;
+	text-align:center;
+	color: black;
+	background-color:white;
+	border-radius: 5px;	
+}
+
+.townhallTable {
+	margin-left:2%;
+	width: 33%;
+	text-align:center;
+	color: black;
+	background-color:white;
+	border-radius: 5px;	
+}
+
+.townhallTable2 {
+	width: 100%;
+}
+
+.donorsAndTownhalls {
+	display: inline-flex;
+	justify-content: center;
+	width:100%;
+}
+
+#townhallDate {
+	color: #BF0A30;
+}
+
+#townhallName {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.breakline {
+	width: 90%;
+	color:silver;
+}
+
+.child-row p {
+	margin-bottom: 0px;
+}
+
+.child-row td {
+	width:100%;
+	padding-bottom: 10px;
+	overflow:hidden;
+}
+
+#townhallBody {
+	padding-left: 50px;
+}
+
+.sendQuestion {
+	padding-top:5px;
+}
+
+#questionText {
+	margin-bottom: 5px;
+}
+th {
+	width: 30%;
+	padding-right: 20px;
+}
+td {
+	width: 70%;
+}
+
+.rep-name {
+	width: 35%;
+}
+
+.sen-name {
+	width: 50%;
+}
+
+.district {
+	width: 15%;
+}
+
+.spacer {
+	width: 30%;
+}
+
+
+.no-top-line td, th {
+	border-top: none !important;
+}
+
+#api-message {
+	font-size: 80%;
+	color: #BF0A30;
+}
+
+#edit-button {
+	margin-right: 20px;
+}
+
+#submitQuestion {
+	margin-left: 20px;
+}
+
+.senateHeader {
+	padding-top: 20px;
+}
+
+.senateHeader>img {
+  display: inline-flex;
+  width: 10%;
+  height: 10%;
+  padding-bottom: 20px;
+  padding-right: 10px;
+
+}
+
+.senateHeader>h2 {
+  position: relative;
+  display: inline-flex;
+}
+
+.house2Header {
+	padding-top: 20px;
+}
+
+.house2Header>img {
+  display: inline-flex;
+  width: 10%;
+  height: 10%;
+  padding-bottom: 20px;
+  padding-right: 10px;
+
+}
+
+.house2Header>h2 {
+  position: relative;
+  display: inline-flex;
+}
+
+
+

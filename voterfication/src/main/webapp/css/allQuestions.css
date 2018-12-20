@@ -1,0 +1,154 @@
+.pageContent {
+	display:flex-block;
+	justify-content:center;
+}
+
+.title {
+	display:flex;
+	justify-content:center;
+	color:lightgrey;
+}
+
+.question-list {
+	display:flex;
+	flex-flow:column;
+	align-items:center;
+}
+
+.post {
+	display:inline-flex;
+	align-content:center;
+}
+.questionItem{
+	display:block;
+	height:60%;
+	width: 50vw;
+}
+
+.message {
+	list-style:none;
+	width:50%;
+	height:90%;
+}
+.to-fromBlock {
+	color: lightgray;
+	 display: inline-flex;
+	align-content: space-between;
+}
+
+span.username {
+	
+	padding-right: 10px;
+}
+.username p {
+	color:white;
+	display:inline-flex;
+}
+
+.hallName {
+	width:15vw;
+}
+
+.repName {
+	width:15vw;
+}
+.to {
+	/* color:#bf0a30; */
+	color:silver;
+	text-decoration:underline;
+}
+.to:hover {
+	color:white;
+	text-decoration:underline;
+}
+.timeAndMessageBlock {
+	color: lightgrey;
+	display: block;
+	/* width:30vw; */
+}
+.message-text {
+	color:white;
+	margin-top: 1%;
+	display:block;
+}
+
+.buttons {
+	display:flex;
+	justify-content: left;
+}
+.questionDelete {
+	margin-right: 0;
+	display:flex;
+	justify-content:center;
+	 /* width:5vw;  */
+	position:relative;
+	/*  left:175px;
+	bottom:76px;  */
+	font-size:8pt;
+	color:white;
+}
+
+.delete {
+	justify-content:center;
+	background-color: #bf0a30;
+}
+#modEnable {
+	 display:inline-flex;
+	position:relative;
+	max-width:7vw;
+	margin-right:5pt;
+}
+
+.allowMod {
+	margin-top:5px;
+	/* display:flex;
+	justify-content:center; */
+	display:block;
+	 /* left:106px;
+	 bottom:40px;  */
+	 
+}
+ .modifyMessage { 
+ margin-top:5px;
+ 	 display:block;
+ 	 width:97%;
+	/*justify-content:center;  */
+	/*position:relative;
+	bottom: 94px;
+	left:170px; */
+}
+
+#modifiedQuestion {
+	color:black;
+	display:none;
+	/* justify-content:left;
+	align-items:top;
+	max-height:400px; */
+	width:100%;
+	size:255;
+}
+.submitCancelButtons{
+	margin-top:5px;
+	display:flex;
+	justify-content:flex-end;
+	margin-bottom: 5px;
+}
+#Modify {
+/* 	position: relative;
+	 left: 10px; */
+	 margin-right:5px;
+}
+
+#disableMessage {
+	color:black;
+}
+
+.seperator {
+	display:flex;
+	justify-content:center;
+	padding-bottom:5px;
+}
+
+hr {
+	margin-top:0;
+}
